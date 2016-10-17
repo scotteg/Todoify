@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C53BAD81CE132D90081C898 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53BAD71CE132D90081C898 /* CreateTaskViewController.swift */; };
+		9C53BADA1CE13EE50081C898 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53BAD91CE13EE50081C898 /* User.swift */; };
+		9C5AAB1C1CE26B42001ABA8C /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5AAB1B1CE26B42001ABA8C /* TestData.swift */; };
+		9C9D97761CDFD4C5006429B4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D97751CDFD4C5006429B4 /* Task.swift */; };
+		9C9D979C1CE0C678006429B4 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9D979B1CE0C678006429B4 /* TaskCell.swift */; };
+		9CBDBD401CE25E7F00555B68 /* MyTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBDBD3F1CE25E7F00555B68 /* MyTasksViewController.swift */; };
+		9CE6BE971CDE38AC003A6FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6BE961CDE38AC003A6FD3 /* AppDelegate.swift */; };
+		9CE6BE991CDE38AC003A6FD3 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE6BE981CDE38AC003A6FD3 /* TasksViewController.swift */; };
+		9CE6BE9C1CDE38AC003A6FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6BE9A1CDE38AC003A6FD3 /* Main.storyboard */; };
+		9CE6BE9E1CDE38AC003A6FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6BE9D1CDE38AC003A6FD3 /* Assets.xcassets */; };
+		9CE6BEA11CDE38AC003A6FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6BE9F1CDE38AC003A6FD3 /* LaunchScreen.storyboard */; };
+		9CE6BEA91CDE38CB003A6FD3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6BEA81CDE38CB003A6FD3 /* Podfile */; };
+		DE90196A76E69591A7467282 /* Pods_Todoify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F12C6A4C7B35E58170D5BD /* Pods_Todoify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		136F44DE7453B9C0DA188FE0 /* Pods-Todoify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todoify/Pods-Todoify.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD954CA120E75C4F5E87E31 /* Pods-Todoify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Todoify/Pods-Todoify.release.xcconfig"; sourceTree = "<group>"; };
+		9C53BAD71CE132D90081C898 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		9C53BAD91CE13EE50081C898 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9C5AAB1B1CE26B42001ABA8C /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		9C9D97751CDFD4C5006429B4 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		9C9D979B1CE0C678006429B4 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		9CBDBD3F1CE25E7F00555B68 /* MyTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTasksViewController.swift; sourceTree = "<group>"; };
+		9CE6BE931CDE38AC003A6FD3 /* Todoify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE6BE961CDE38AC003A6FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CE6BE981CDE38AC003A6FD3 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		9CE6BE9B1CDE38AC003A6FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CE6BE9D1CDE38AC003A6FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CE6BEA01CDE38AC003A6FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CE6BEA21CDE38AC003A6FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE6BEA81CDE38CB003A6FD3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3F12C6A4C7B35E58170D5BD /* Pods_Todoify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CE6BE901CDE38AC003A6FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE90196A76E69591A7467282 /* Pods_Todoify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2354A99EC3ED45680E0EEADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F12C6A4C7B35E58170D5BD /* Pods_Todoify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A64D35BA13A3A68F1C67AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				136F44DE7453B9C0DA188FE0 /* Pods-Todoify.debug.xcconfig */,
+				2DD954CA120E75C4F5E87E31 /* Pods-Todoify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C53BADB1CE148890081C898 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9CE6BE9A1CDE38AC003A6FD3 /* Main.storyboard */,
+				9CE6BE9D1CDE38AC003A6FD3 /* Assets.xcassets */,
+				9CE6BE9F1CDE38AC003A6FD3 /* LaunchScreen.storyboard */,
+				9CE6BEA21CDE38AC003A6FD3 /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9C9D97731CDFD4AC006429B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C9D97751CDFD4C5006429B4 /* Task.swift */,
+				9C53BAD91CE13EE50081C898 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9C9D97741CDFD4B1006429B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CE6BE981CDE38AC003A6FD3 /* TasksViewController.swift */,
+				9C9D979B1CE0C678006429B4 /* TaskCell.swift */,
+				9C53BAD71CE132D90081C898 /* CreateTaskViewController.swift */,
+				9CBDBD3F1CE25E7F00555B68 /* MyTasksViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9CE6BE8A1CDE38AC003A6FD3 = {
+			isa = PBXGroup;
+			children = (
+				9CE6BEA81CDE38CB003A6FD3 /* Podfile */,
+				9CE6BE951CDE38AC003A6FD3 /* Todoify */,
+				9CE6BE941CDE38AC003A6FD3 /* Products */,
+				6A64D35BA13A3A68F1C67AF9 /* Pods */,
+				2354A99EC3ED45680E0EEADE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CE6BE941CDE38AC003A6FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CE6BE931CDE38AC003A6FD3 /* Todoify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CE6BE951CDE38AC003A6FD3 /* Todoify */ = {
+			isa = PBXGroup;
+			children = (
+				9C53BADB1CE148890081C898 /* Assets */,
+				9C9D97741CDFD4B1006429B4 /* ViewControllers */,
+				9C9D97731CDFD4AC006429B4 /* Models */,
+				9CE6BE961CDE38AC003A6FD3 /* AppDelegate.swift */,
+				9C5AAB1B1CE26B42001ABA8C /* TestData.swift */,
+			);
+			path = Todoify;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CE6BE921CDE38AC003A6FD3 /* Todoify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE6BEA51CDE38AC003A6FD3 /* Build configuration list for PBXNativeTarget "Todoify" */;
+			buildPhases = (
+				8AD1B1A6F08DB219E4C9A0FC /* 📦 Check Pods Manifest.lock */,
+				9CE6BE8F1CDE38AC003A6FD3 /* Sources */,
+				9CE6BE901CDE38AC003A6FD3 /* Frameworks */,
+				9CE6BE911CDE38AC003A6FD3 /* Resources */,
+				D3F1788F46CBA3EEEB68E522 /* 📦 Embed Pods Frameworks */,
+				26279EA1DAD733DA61F91EFB /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Todoify;
+			productName = Todoify;
+			productReference = 9CE6BE931CDE38AC003A6FD3 /* Todoify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CE6BE8B1CDE38AC003A6FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					9CE6BE921CDE38AC003A6FD3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 9CE6BE8E1CDE38AC003A6FD3 /* Build configuration list for PBXProject "Todoify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CE6BE8A1CDE38AC003A6FD3;
+			productRefGroup = 9CE6BE941CDE38AC003A6FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CE6BE921CDE38AC003A6FD3 /* Todoify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CE6BE911CDE38AC003A6FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE6BEA11CDE38AC003A6FD3 /* LaunchScreen.storyboard in Resources */,
+				9CE6BE9E1CDE38AC003A6FD3 /* Assets.xcassets in Resources */,
+				9CE6BEA91CDE38CB003A6FD3 /* Podfile in Resources */,
+				9CE6BE9C1CDE38AC003A6FD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26279EA1DAD733DA61F91EFB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Todoify/Pods-Todoify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD1B1A6F08DB219E4C9A0FC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F1788F46CBA3EEEB68E522 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Todoify/Pods-Todoify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CE6BE8F1CDE38AC003A6FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE6BE991CDE38AC003A6FD3 /* TasksViewController.swift in Sources */,
+				9C9D97761CDFD4C5006429B4 /* Task.swift in Sources */,
+				9C53BADA1CE13EE50081C898 /* User.swift in Sources */,
+				9C5AAB1C1CE26B42001ABA8C /* TestData.swift in Sources */,
+				9C9D979C1CE0C678006429B4 /* TaskCell.swift in Sources */,
+				9CE6BE971CDE38AC003A6FD3 /* AppDelegate.swift in Sources */,
+				9CBDBD401CE25E7F00555B68 /* MyTasksViewController.swift in Sources */,
+				9C53BAD81CE132D90081C898 /* CreateTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CE6BE9A1CDE38AC003A6FD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE6BE9B1CDE38AC003A6FD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CE6BE9F1CDE38AC003A6FD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE6BEA01CDE38AC003A6FD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CE6BEA31CDE38AC003A6FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CE6BEA41CDE38AC003A6FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CE6BEA61CDE38AC003A6FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136F44DE7453B9C0DA188FE0 /* Pods-Todoify.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Todoify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Todoify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9CE6BEA71CDE38AC003A6FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD954CA120E75C4F5E87E31 /* Pods-Todoify.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Todoify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Todoify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CE6BE8E1CDE38AC003A6FD3 /* Build configuration list for PBXProject "Todoify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE6BEA31CDE38AC003A6FD3 /* Debug */,
+				9CE6BEA41CDE38AC003A6FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE6BEA51CDE38AC003A6FD3 /* Build configuration list for PBXNativeTarget "Todoify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE6BEA61CDE38AC003A6FD3 /* Debug */,
+				9CE6BEA71CDE38AC003A6FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CE6BE8B1CDE38AC003A6FD3 /* Project object */;
+}
